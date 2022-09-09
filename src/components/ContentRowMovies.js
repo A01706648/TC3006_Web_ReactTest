@@ -1,7 +1,7 @@
 import React from 'react';
 
 function ContentRowMovies() {
-    return ({/*{!-- Movies in Data Base -->*/}
+    return (        <div>
 						<div className="col-md-4 mb-4">
 							<div className="card border-left-primary shadow h-100 py-2">
 								<div className="card-body">
@@ -17,8 +17,6 @@ function ContentRowMovies() {
 								</div>
 							</div>
 						</div>
-
-						{/*{!-- Total awards -->*/}
 						<div className="col-md-4 mb-4">
 							<div className="card border-left-success shadow h-100 py-2">
 								<div className="card-body">
@@ -34,8 +32,6 @@ function ContentRowMovies() {
 								</div>
 							</div>
 						</div>
-
-						{/*{!-- Actors quantity -->*/}
 						<div className="col-md-4 mb-4">
 							<div className="card border-left-warning shadow h-100 py-2">
 								<div className="card-body">
@@ -53,7 +49,7 @@ function ContentRowMovies() {
 							</div>
 						</div>
 					</div>
-					{/*{!-- End movies in Data Base -->*/})
+					)
 }
 
 export default ContentRowMovies;
